@@ -1,0 +1,465 @@
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  font-family: helvetica;
+}
+
+html {
+  width: 100%;
+  scroll-behavior: smooth;
+
+}
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+  overflow-x:hidden;
+  width: 100%;
+  /* font-family: 'VT323', monospace;
+  font-size: 1.2rem;
+  line-height: 1.5; */
+  color: white;
+  background-color: black;
+  background-image: url("../images/background.jpg");
+  background-size: 50%;
+  background-repeat: round;
+  overflow-x: hidden;
+  background-position: fixed;
+  background-attachment: fixed;
+}
+/* p {
+  font-family: "VCR OSD MONO";
+  src: url("../fonts/VCR_OSD_MONO.ttf"), url('vcr_osd_mono-webfont.woff2') format('woff2'),
+         url('vcr_osd_mono-webfont.woff') format('woff');
+  line-height: 1.5em;
+  font-kerning: auto;
+} */
+
+p {
+  font-family: 'Karla', monospace;
+  font-kerning: auto;
+  font-size: 12px;
+  line-height: 1.5em;
+  hyphens: auto;
+}
+h1 {
+  font-size: 1.3em;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+}
+h2 {
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  color: orange;
+}
+h3 {
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  line-height: 1em;
+  padding-left: 4vh;
+  padding-right: 4vh;
+}
+h4 {
+  font-family: 'Karla', sans-serif;
+  font-kerning: auto;
+  color: orange;
+  display: inline !important;
+}
+h5 {
+  font-family: 'Karla', sans-serif;
+  font-style: italic;
+  font-kerning: auto;
+  font-size: 1em;
+  line-height: 1.4em;
+  color: orange;
+
+}
+h6 {
+  font-family: 'Karla', monospace;
+  font-kerning: auto;
+  font-size: 12px;
+  line-height: 1.5em;
+  hyphens: auto;
+  text-align: center;
+  color: grey;
+}
+a {
+  font-family: 'Karla', sans-serif;
+  font-kerning: auto;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  word-wrap: break-word;
+}
+a:link {
+  text-decoration: none;
+  color: orange;;
+}
+a:visited {
+  text-decoration: none;
+  color: grey;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+a:focus {
+  text-decoration: underline;
+}
+
+.spotify {
+  margin-left: 4vh;
+  margin-right: 4vh;
+  /* border: 1px solid blue; */
+}
+
+img {
+  max-width: 100%;
+  min-width: 100%;
+}
+figcaption {
+  font-family: "VCR OSD MONO";
+  src: url("../fonts/VCR_OSD_MONO.ttf");
+  line-height: 1.2em;
+  font-kerning: auto;
+  font-size: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.quote {
+  height: auto;
+}
+.images {
+  max-width: 95%;
+  min-width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.chapter-body {
+  padding-left: 4vh;
+  padding-right: 4vh;
+}
+.menu {
+  text-align: center;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  background-color: black;
+}
+.thesis-title {
+  padding-left: 4vh;
+  padding-right: 4vh;
+}
+.thesis-subtitle {
+  padding-left: 4vh;
+  padding-right: 4vh;
+}
+.titles {
+  max-width: 85%;
+  margin: auto;
+}
+
+.title chapter-title
+#abc img {
+  width: 80vh;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 15px;
+  font-family: 'Karla', monospace;
+
+}
+#myBtn:hover {
+  background-color: orange;
+}
+
+ul {
+  padding: 0;
+}
+/* .drag {
+  z-index: 98;
+  position:fixed;
+}
+.drag img {
+  width: 50vh;
+}
+#drag1 {
+  top:20px;
+  left: 20px;
+  width:100px;
+}
+#drag2 {
+  top: 10vh;
+  right: 50vh;
+  width:100px;
+} */
+
+}
+.container {
+  padding-left: 2vh;
+  padding-right: 2vh;
+}
+.intro {
+  max-width: 80% !important;
+  margin-bottom: 10%;
+  margin: auto;
+}
+
+#introEtR img {
+  max-width: 80% !important;
+  max-height: 80% !important;
+  overflow-x: hidden;
+  display: block;
+  margin-top: 15vh;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 25px 100px 0 rgba(256, 256, 256, 0.2), 0 0px 0px 0 rgba(256, 256, 256, 0.19);
+}
+
+.twopicsleft {
+  width: 48%;
+  /* background-color: blue; */
+  height: auto;
+  overflow: hidden;
+  float: left;
+  margin-bottom: 15px;
+  margin-right: 4%;
+}
+
+.twopicsright {
+  width: 48%;
+  /* background-color: red; */
+  height: auto;
+  float: left;
+  margin-bottom: 15px;
+
+}
+
+
+input,
+button,
+select,
+textarea {
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  border-radius: 0;
+  -ms-appearance: none;
+  -o-appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+
+.modal {
+  z-index:1;
+  display:none;
+  padding-top:10px;
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  overflow:auto;
+  background-color:rgb(0,0,0);
+  background-color:rgba(0,0,0,0.8)
+
+}
+
+.modal-content{
+  width: 90%;
+  height: auto;
+  margin:0 auto;
+  display:table;
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  top: 50%;
+  -webkit-transform:translateY(-50%);
+  -moz-transform:translateY(-50%);
+  -ms-transform:translateY(-50%);
+  -o-transform:translateY(-50%);
+  transform:translateY(-50%);
+
+}
+
+
+.modal-hover-opacity {
+  opacity:1;
+  filter:alpha(opacity=100);
+  -webkit-backface-visibility:hidden
+}
+
+.modal-hover-opacity:hover {
+  opacity:0.60;
+  filter:alpha(opacity=60);
+  -webkit-backface-visibility:hidden
+}
+
+.close {
+  text-decoration:none;float:right;font-size:24px;font-weight:bold;color:white
+}
+
+.modal-content, #caption {
+
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+
+/* MENU COLLAPSIBLE */
+.collapsible {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 25%;
+  border: none;
+  outline: none;
+  top: 1em;
+  right: 1em;
+  font-size: 15px;
+  position: fixed;
+  overflow: hidden;
+}
+
+
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  display: none;
+  padding: 0 18px;
+  max-height: auto;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  z-index:101;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+.closebtn {
+  cursor: pointer;
+  background-color: black;
+  color: white !important;
+  padding: 10px 15px;
+  border: none;
+  position: fixed;
+  border-radius: 4px;
+  top: 1vh !important;
+  right: 2vh !important!;
+
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+  background-color: black;
+}
+
+.sidebar a:hover {
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+
+  margin-left: 50px;
+}
+
+.openbtn {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  position: fixed;
+  top: 1vh;
+  right: 2vh;
+  border-radius: 15px;
+}
+
+.openbtn:hover {
+  background-color: black;
+}
+
+#main {
+  transition: margin-left .5s;
+  /* padding: 5px; */
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
